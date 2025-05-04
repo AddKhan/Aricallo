@@ -1,7 +1,12 @@
+using System;
 using System.ComponentModel;
 using UnityEngine;
 
-public class BackgroundEnum
+[Serializable]
+public enum BackgroundEnum
 {
-   
+   motelDoor,
+   motelLiving,
+   motelOutside,
+   motelSign
 }

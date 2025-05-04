@@ -641,12 +641,14 @@ MonoBehaviour:
   dialogueList:
   - name: 0
     sprite: 0
-    dialogue: hello
+    backgroundSprite: 1
+    dialogue: element 0
     isChoice: 0
     choices: []
   - name: 1
     sprite: 5
-    dialogue: hi
+    backgroundSprite: 0
+    dialogue: element 1
     isChoice: 1
     choices:
     - choiceMapping: 4
@@ -655,36 +657,43 @@ MonoBehaviour:
       choiceDialogue: sad
   - name: 0
     sprite: 9
-    dialogue: ok
+    backgroundSprite: 3
+    dialogue: element 2
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    dialogue: ok
+    backgroundSprite: 2
+    dialogue: element 3
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    dialogue: jump to 4
+    backgroundSprite: 0
+    dialogue: jump to 4, element 4
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    dialogue: jumped to 5
+    backgroundSprite: 0
+    dialogue: jumped to 5, element 5
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    dialogue: jummp to 6
+    backgroundSprite: 0
+    dialogue: jump to 6, element 6
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    dialogue: jump to 7
+    backgroundSprite: 0
+    dialogue: jump to 7, element 7
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
+    backgroundSprite: 0
     dialogue: ok
     isChoice: 0
     choices: []

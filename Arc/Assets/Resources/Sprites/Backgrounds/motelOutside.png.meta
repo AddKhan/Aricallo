@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 48e495942e6c4b249965f598f0fce127
+guid: 19734d962c1a0ab4a9798563eec3ad90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8346775025818209325
-    second: motel_sign_0
+      213: -8657387514441844965
+    second: motel_outside_corner_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: motel_sign_0
+      name: motel_outside_corner_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 900
-        height: 600
+        width: 612
+        height: 408
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d3f00e465c4a2c80800000000000000
-      internalID: -8346775025818209325
+      spriteID: b17bac6ace7cad780800000000000000
+      internalID: -8657387514441844965
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      motel_outside_corner_0: -8657387514441844965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

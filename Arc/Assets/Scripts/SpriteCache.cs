@@ -10,6 +10,7 @@ public class SpriteCache : ScriptableObject
     void OnEnable() 
     {
         LoadSprite("Sprites/", Enum.GetNames(typeof(SpriteEnum)));
+        LoadSprite("Sprites/Backgrounds/", Enum.GetNames(typeof(BackgroundEnum)));
     }
 
     void LoadSprite(string path, string[] spriteNames) 
