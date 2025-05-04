@@ -344,9 +344,9 @@ GameObject:
   m_Component:
   - component: {fileID: 509502680}
   - component: {fileID: 509502682}
-  - component: {fileID: 509502681}
+  - component: {fileID: 509502683}
   m_Layer: 5
-  m_Name: Motel Outside BG
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,7 +371,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2200, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &509502681
+--- !u!222 &509502682
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509502679}
+  m_CullTransparentMesh: 1
+--- !u!114 &509502683
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -380,7 +388,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 509502679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -391,21 +399,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 19734d962c1a0ab4a9798563eec3ad90, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &509502682
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509502679}
-  m_CullTransparentMesh: 1
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,17 +637,61 @@ MonoBehaviour:
   tmpDialogue: {fileID: 857919273}
   tmpName: {fileID: 373258452}
   sprite: {fileID: 796213345}
+  backgroundSprite: {fileID: 0}
   dialogueList:
   - name: 0
     sprite: 0
     dialogue: hello
+    isChoice: 0
+    choices: []
   - name: 1
-    sprite: 1
+    sprite: 5
     dialogue: hi
+    isChoice: 1
+    choices:
+    - choiceMapping: 4
+      choiceDialogue: happy
+    - choiceMapping: 6
+      choiceDialogue: sad
   - name: 0
-    sprite: 0
+    sprite: 9
     dialogue: ok
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 9
+    dialogue: ok
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 9
+    dialogue: jump to 4
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 9
+    dialogue: jumped to 5
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 9
+    dialogue: jummp to 6
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 9
+    dialogue: jump to 7
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 9
+    dialogue: ok
+    isChoice: 0
+    choices: []
   dialogueIndex: 0
+  choiceboxPrefab: {fileID: 5760836204674551407, guid: 3286fd9f7a8c23c44be1d843bad50fb1, type: 3}
+  choiceSelected: 0
+  spawnedChoices: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,7 +1047,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 15.5688}
-  m_SizeDelta: {x: 600, y: 807.9577}
+  m_SizeDelta: {x: 700, y: 807.9577}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &796213342
 CanvasRenderer:

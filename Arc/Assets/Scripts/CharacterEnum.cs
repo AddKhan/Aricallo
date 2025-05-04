@@ -5,6 +5,7 @@ public enum CharacterEnum
 {
     Le,
     Sou,
+    System,
    [Description("???")]
    Unknown
 }
