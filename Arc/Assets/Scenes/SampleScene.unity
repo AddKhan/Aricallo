@@ -637,7 +637,7 @@ MonoBehaviour:
   tmpDialogue: {fileID: 857919273}
   tmpName: {fileID: 373258452}
   sprite: {fileID: 796213345}
-  backgroundSprite: {fileID: 0}
+  backgroundSprite: {fileID: 509502683}
   dialogueList:
   - name: 0
     sprite: 0
