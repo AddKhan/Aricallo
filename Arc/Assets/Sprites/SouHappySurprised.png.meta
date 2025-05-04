@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e053e1c5ce6fadf48bf026ac93766360
+guid: ace1fbee5179fdb40b785f3e102d6fd8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8424783121221915315
-    second: I-flustered_0
+      213: 4206158060698722261
+    second: s-happySurprised_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: I-flustered_0
+      name: s-happySurprised_0
       rect:
         serializedVersion: 2
-        x: 73
+        x: 58
         y: 0
-        width: 1067
-        height: 1363
+        width: 1082
+        height: 1219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b29322cc97dae470800000000000000
-      internalID: 8424783121221915315
+      spriteID: 5dfd71598764f5a30800000000000000
+      internalID: 4206158060698722261
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      s-happySurprised_0: 4206158060698722261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

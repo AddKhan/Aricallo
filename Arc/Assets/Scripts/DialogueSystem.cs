@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueSystem : MonoBehaviour
 {
-    public TextMeshProUGUI tmp;
-
-    public List<string> dialogueList;
+    public SpriteCache spriteCache;
+    public TextMeshProUGUI tmpDialogue;
+    public TextMeshProUGUI tmpName;
+    public Image sprite;
+    public List<DialogueStruct> dialogueList;
     public int dialogueIndex;
 
     // typewriter
@@ -15,7 +18,10 @@ public class DialogueSystem : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(TypeWriterEffect(dialogueList[0]));
+        tmpName.text = dialogueList[0].name.ToString();
+        StartCoroutine(TypeWriterEffect(dialogueList[0].dialogue));
+        print("first is " + dialogueList[0].sprite.ToString());
+        sprite.sprite = spriteCache.sprites[dialogueList[0].sprite.ToString()];
     }
 
     // update is called once per frame
@@ -25,7 +31,9 @@ public class DialogueSystem : MonoBehaviour
         {
             Debug.Log("space pressed");
             dialogueIndex++;
-            StartCoroutine(TypeWriterEffect(dialogueList[dialogueIndex]));
+            tmpName.text = dialogueList[dialogueIndex].name.ToString();
+            StartCoroutine(TypeWriterEffect(dialogueList[dialogueIndex].dialogue));
+            sprite.sprite = spriteCache.sprites[dialogueList[dialogueIndex].sprite.ToString()];
         }
     }
 
@@ -35,7 +43,7 @@ public class DialogueSystem : MonoBehaviour
         
         for (int i = 0; i <= dialogue.Length; i++) 
         {
-            tmp.text = dialogue[..i];
+            tmpDialogue.text = dialogue[..i];
             
             yield return new WaitForSeconds(0.05f); // make diff speeds
         }

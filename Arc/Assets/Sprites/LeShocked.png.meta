@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e93c20aa858116d449eafd6af79396c4
+guid: 6a85c9be36d5da749ad14eb723ae6e67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6492233935734781802
-    second: s-smug_0
+      213: 4195881443460959188
+    second: l-shocked_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: s-smug_0
+      name: l-shocked_0
       rect:
         serializedVersion: 2
-        x: 58
+        x: 73
         y: 0
-        width: 1082
-        height: 1219
+        width: 1067
+        height: 1363
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6735320e5c091a50800000000000000
-      internalID: 6492233935734781802
+      spriteID: 4dbc42d21f3ca3a30800000000000000
+      internalID: 4195881443460959188
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      l-shocked_0: 4195881443460959188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

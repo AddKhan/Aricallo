@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 87f033e167015c74d9a9fd2893a44058
+guid: 2d2fd72a2f3cf884683c84792e449f07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5374860032458522919
-    second: s-questioning_0
+      213: 8912922582297249128
+    second: l-stunned_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: s-questioning_0
+      name: l-stunned_0
       rect:
         serializedVersion: 2
-        x: 58
+        x: 73
         y: 0
-        width: 1082
-        height: 1219
+        width: 1067
+        height: 1363
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9de7dd71749a865b0800000000000000
-      internalID: -5374860032458522919
+      spriteID: 865826caddf01bb70800000000000000
+      internalID: 8912922582297249128
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      l-stunned_0: 8912922582297249128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
