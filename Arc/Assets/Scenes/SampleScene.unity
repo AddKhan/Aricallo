@@ -369,7 +369,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2200, y: 1000}
+  m_SizeDelta: {x: 2212.6, y: 1049.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &509502682
 CanvasRenderer:
@@ -651,25 +651,25 @@ MonoBehaviour:
     dialogue: element 1
     isChoice: 1
     choices:
-    - choiceMapping: 4
-      choiceDialogue: happy
-    - choiceMapping: 6
-      choiceDialogue: sad
+    - choiceMapping: 1
+      choiceDialogue: yes
+    - choiceMapping: 2
+      choiceDialogue: no
   - name: 0
     sprite: 9
-    backgroundSprite: 3
+    backgroundSprite: 0
     dialogue: element 2
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    backgroundSprite: 2
+    backgroundSprite: 0
     dialogue: element 3
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    backgroundSprite: 0
+    backgroundSprite: 3
     dialogue: jump to 4, element 4
     isChoice: 0
     choices: []
@@ -681,13 +681,13 @@ MonoBehaviour:
     choices: []
   - name: 0
     sprite: 9
-    backgroundSprite: 0
+    backgroundSprite: 2
     dialogue: jump to 6, element 6
     isChoice: 0
     choices: []
   - name: 0
     sprite: 9
-    backgroundSprite: 0
+    backgroundSprite: 2
     dialogue: jump to 7, element 7
     isChoice: 0
     choices: []
