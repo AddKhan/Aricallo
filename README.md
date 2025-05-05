@@ -3,6 +3,7 @@
 ENGL 3500- 
 
 Final Paper is in homework_items --> ENGL Final Paper
+--note: the scene occuring in the game is after Le escapes the motel
 
 HW(9) is contained in homework_items --> assets (2 sprites), scenes (1 script), and reflections (1 reflection)!
 
