@@ -640,61 +640,175 @@ MonoBehaviour:
   backgroundSprite: {fileID: 509502683}
   dialogueList:
   - name: 0
+    sprite: 3
+    backgroundSprite: 1
+    dialogue: I managed to open the door.
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 4
+    backgroundSprite: 1
+    dialogue: I shouldn't take any longer than I already did.
+    isChoice: 0
+    choices: []
+  - name: 0
     sprite: 0
     backgroundSprite: 1
-    dialogue: element 0
+    dialogue: I'd rather not walk to school.
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 0
+    backgroundSprite: 0
+    dialogue: ...
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 0
+    backgroundSprite: 0
+    dialogue: What do you want?
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 8
+    backgroundSprite: 0
+    dialogue: What do I want?
     isChoice: 0
     choices: []
   - name: 1
     sprite: 5
     backgroundSprite: 0
-    dialogue: element 1
+    dialogue: To say hi of course?
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 0
+    backgroundSprite: 0
+    dialogue: 
     isChoice: 1
     choices:
-    - choiceMapping: 1
-      choiceDialogue: yes
-    - choiceMapping: 2
-      choiceDialogue: no
-  - name: 0
+    - choiceMapping: 7
+      choiceDialogue: Who are you?
+    - choiceMapping: 7
+      choiceDialogue: Do I know you?
+  - name: 1
     sprite: 9
     backgroundSprite: 0
-    dialogue: element 2
+    dialogue: Um...
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 5
+    backgroundSprite: 0
+    dialogue: I'm your new neighbor!
     isChoice: 0
     choices: []
   - name: 0
+    sprite: 0
+    backgroundSprite: 0
+    dialogue: ...
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 0
+    backgroundSprite: 0
+    dialogue: And you expect me to believe that?
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 11
+    backgroundSprite: 0
+    dialogue: Of course not! I'm joking.
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 5
+    backgroundSprite: 0
+    dialogue: Hahah!
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 0
+    backgroundSprite: 0
+    dialogue: 
+    isChoice: 1
+    choices:
+    - choiceMapping: 14
+      choiceDialogue: Please move.
+    - choiceMapping: 14
+      choiceDialogue: Goodbye.
+  - name: 1
     sprite: 9
     backgroundSprite: 0
-    dialogue: element 3
+    dialogue: Oh, wait!
     isChoice: 0
     choices: []
   - name: 0
-    sprite: 9
-    backgroundSprite: 3
-    dialogue: jump to 4, element 4
-    isChoice: 0
-    choices: []
-  - name: 0
-    sprite: 9
-    backgroundSprite: 0
-    dialogue: jumped to 5, element 5
-    isChoice: 0
-    choices: []
-  - name: 0
-    sprite: 9
+    sprite: 4
     backgroundSprite: 2
-    dialogue: jump to 6, element 6
+    dialogue: ...
     isChoice: 0
     choices: []
   - name: 0
-    sprite: 9
+    sprite: 4
     backgroundSprite: 2
-    dialogue: jump to 7, element 7
+    dialogue: Everything looks the same, but different...?
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 11
+    backgroundSprite: 2
+    dialogue: Yeah. Welcome to the Arc.
     isChoice: 0
     choices: []
   - name: 0
-    sprite: 9
-    backgroundSprite: 0
-    dialogue: ok
+    sprite: 4
+    backgroundSprite: 2
+    dialogue: 
+    isChoice: 1
+    choices:
+    - choiceMapping: 19
+      choiceDialogue: The Arc?
+    - choiceMapping: 20
+      choiceDialogue: ...
+  - name: 0
+    sprite: 2
+    backgroundSprite: 2
+    dialogue: What's that?
+    isChoice: 0
+    choices:
+    - choiceMapping: 20
+      choiceDialogue: The Arc?
+    - choiceMapping: 21
+      choiceDialogue: ...
+  - name: 1
+    sprite: 11
+    backgroundSprite: 2
+    dialogue: The Arc is the place between life and death.
+    isChoice: 0
+    choices: []
+  - name: 0
+    sprite: 4
+    backgroundSprite: 2
+    dialogue: Between? But I should be dead.
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 5
+    backgroundSprite: 2
+    dialogue: Well, congrats!
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 5
+    backgroundSprite: 2
+    dialogue: You get another chance at living.
+    isChoice: 0
+    choices: []
+  - name: 1
+    sprite: 7
+    backgroundSprite: 2
+    dialogue: That is if you can escape this nightmare.
     isChoice: 0
     choices: []
   dialogueIndex: 0
